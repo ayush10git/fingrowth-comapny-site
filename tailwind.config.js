@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        denton: ["var(--font-denton)"],
+        gilroy: ["var(--font-gilroy)"]
+      }
     },
   },
   plugins: [],
