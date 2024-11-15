@@ -3,18 +3,18 @@ import React from "react";
 
 const Top = () => {
   return (
-    <div className="flex items-center flex-wrap justify-center bg-[#EAE8E1] w-full h-full p-10 pb-20">
+    <div className="flex items-center flex-wrap justify-center bg-[#EAE8E1] w-full h-full xs:p-4 sm:p-5 md:p-10 pb-20">
       <div className="bg-[#F4F1EF] w-full h-full box rounded-[60px] flex flex-col gap-4 items-center p-8">
         <div className="self-end">
-          <button className="btn flex items-center justify-center gap-1 w-[232px] h-[60px] px-[32px] py-[20px] text-white rounded-full mr-4">
-            <span>Book a demo </span>-{" "}
-            <i className="font-thin font-gilroy">it's Free</i>
+          <button className="btn flex items-center justify-center gap-1 xs:w-[150px] xs:h-[35px] md:w-[232px] md:h-[60px] md:px-[32px] md:py-[20px] text-white rounded-full mr-4">
+            <span className="xs:text-[12px] md:text-[16px]">Book a demo </span>-
+            <i className="font-thin font-gilroy xs:text-[11px] md:text-[12px]">it's Free</i>
           </button>
         </div>
         <div className="border border-gray-400 text-[16px] px-[24px] py-[10px] rounded-full font-gilroy mt-2">
           20+ Fintech Company already trust us
         </div>
-        <div className="text-center flex flex-col text-[60px] font-denton heading tracking-wide">
+        <div className="text-center flex flex-col text-[36px] xl:text-[60px] lg:text-[54px] md:text-[48px] sm:text-[38px] font-denton heading tracking-wide">
           <span>Want to engage your audience & grow </span>
           <span>your brand? We make social media</span>
           <span>easy for Finance & influencers.</span>
@@ -27,7 +27,7 @@ const Top = () => {
           </button>
         </div>
 
-        <div className="flex items-center justify-between gap-10 mt-[4rem]">
+        <div className="flex xs:flex-col sm:flex-col md:flex-row items-center justify-between gap-10 mt-[4rem]">
           <div className="flex items-center justify-center flex-col gap-3">
             <Image
               height={200}
@@ -46,7 +46,7 @@ const Top = () => {
             </div>
           </div>
 
-          <div className="w-[2px] h-[80px] separator opacity-50"></div>
+          <div className="w-[2px] h-[80px] separator opacity-50 xs:hidden sm:hidden md:block"></div>
 
           <div className="flex items-center justify-center flex-col gap-3">
             <Image
@@ -66,7 +66,7 @@ const Top = () => {
             </div>
           </div>
 
-          <div className="w-[2px] h-[80px] separator opacity-50"></div>
+          <div className="w-[2px] h-[80px] separator opacity-50 xs:hidden sm:hidden md:block"></div>
 
           <div className="flex items-center justify-center flex-col gap-3">
             <Image
@@ -84,7 +84,7 @@ const Top = () => {
             </div>
           </div>
 
-          <div className="w-[2px] h-[80px] separator opacity-50"></div>
+          <div className="w-[2px] h-[80px] separator opacity-50 xs:hidden sm:hidden md:block"></div>
 
           <div className="flex items-center justify-center flex-col gap-3">
             <Image

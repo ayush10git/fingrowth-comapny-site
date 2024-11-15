@@ -4,7 +4,7 @@ import React from "react";
 const Info = () => {
   return (
     <div className="bg-[#EAE8E1] px-4 sm:px-8 md:px-12 lg:px-[120px] flex flex-col gap-4 py-10">
-      <h1 className="text-center text-[60px] font-denton hor-grad">
+      <h1 className="text-center text-[36px] xl:text-[60px] lg:text-[54px] md:text-[48px] sm:text-[38px] font-denton hor-grad">
         Things You Can Never Go Back From
       </h1>
       <span className="text-[22px] font-gilroy font-light text-center -mt-3 mb-5">

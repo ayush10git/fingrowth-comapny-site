@@ -3,7 +3,7 @@ import React from "react";
 
 const VideoCard = ({image, title}) => {
   return (
-    <div className="bg-[#F4F1EF] p-5 flex flex-col gap-4 w-[660px] rounded-3xl">
+    <div className="bg-[#F4F1EF] p-5 flex flex-col gap-4 sm:w-full md:w-[660px] xs:w-full rounded-3xl">
       <Image
         src={image}
         className="w-full"

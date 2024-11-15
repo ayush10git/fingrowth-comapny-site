@@ -3,12 +3,12 @@ import React from "react";
 
 const Middle = () => {
   return (
-    <div className="flex items-center flex-wrap justify-center bg-[#EAE8E1] w-full h-full p-10 pb-15">
-      <div className="bg-[#F4F1EF] w-full h-full box rounded-[60px] flex flex-col gap-5 items-center p-8">
-        <span className="font-denton text-[60px] hor-grad">
+    <div className="flex items-center flex-wrap justify-center bg-[#EAE8E1] w-full h-full xs:p-5 p-10 pb-15">
+      <div className="bg-[#F4F1EF] w-full h-full box rounded-[60px] flex flex-col gap-5 items-center p-8 ">
+        <span className="font-denton text-[36px] xl:text-[60px] lg:text-[54px] md:text-[48px] sm:text-[38px]hor-grad">
           Our Partners Hire us for
         </span>
-        <div className="flex gap-5 mt-5">
+        <div className="flex gap-5 mt-5 xs:hidden md:flex">
           <div className="tab flex items-center justify-center px-[24px] py-[20px] gap-2 rounded-2xl">
             <Image
               src="/images/video-circle.png"
@@ -36,7 +36,7 @@ const Middle = () => {
           </div>
         </div>
 
-        <div className="bg-[#f4f1ef] flex justify-center p-10 mx-5 gap-10 mt-4 rounded-[50px]">
+        <div className="bg-[#f4f1ef] flex lg:flex-row xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse justify-center p-10 mx-5 gap-10 md:mt-4 rounded-[50px] xs:scale-[55%] sm:scale-[85%] xs:my-[-10rem] sm:my-[-4rem]">
           <div className="flex flex-col gap-10 flex-1 mx-3">
             <h2 className="font-denton text-[32px] heading">
               Short-Form Vertical
@@ -54,7 +54,7 @@ const Middle = () => {
             </div>
           </div>
 
-          <div className="info-card relative">
+          <div className="info-card relative mx-auto">
             <div className="flex">
               <Image
                 src="/images/pass.png"

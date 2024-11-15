@@ -5,16 +5,16 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="bg-[#EAE8E1] py-10 flex flex-col gap-8 px-4 sm:px-8 lg:px-[120px]">
-      <h1 className="text-center text-[60px] font-denton hor-grad mb-4">
+      <h1 className="text-center text-[36px] xl:text-[60px] lg:text-[54px] md:text-[48px] sm:text-[38px] font-denton hor-grad mb-4 ">
         Experience you can trust
       </h1>
-      <div className="flex sm:flex-col md:flex-col lg:flex-row gap-8">
+      <div className="flex xs:flex-col sm:flex-col md:flex-col lg:flex-row gap-8">
         <Image
           src="/images/kanan.png"
           width={2000}
           height={2000}
           alt=""
-          className="w-full h-[517px] mx-auto"
+          className="w-full h-[517px] object-contain xs:my-[-5rem] sm:my-2 md:my-0"
         />
         <div className="flex flex-col gap-2 text-[16px] font-gilroy font-light h-full lg:h-[517px] lg:overflow-y-scroll scrollbar-hide">
           <span>
@@ -89,7 +89,7 @@ const Experience = () => {
         </div>
       </div>
 
-      <div className="flex gap-5 md:gap-6 xl:gap-10 justify-center">
+      <div className="flex xs:flex-col sm:flex-col md:flex-row gap-5 md:gap-6 xl:gap-10 justify-center items-center">
         <VideoCard
           image="/images/thumb1.png"
           title="He Built 7 Figure Agency After Two Failures | Ft. CA Kanan Bahl | TLL

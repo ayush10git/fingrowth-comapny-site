@@ -1,4 +1,5 @@
 import Experience from "@/pages/Experience";
+import Footer from "@/pages/Footer";
 import Info from "@/pages/Info";
 import Middle from "@/pages/Middle";
 import Testimonials from "@/pages/Testimonials";
@@ -20,6 +21,7 @@ export default function Home() {
       <Testimonials />
       <Info />
       <Experience />
+      <Footer />
     </div>
   );
 }
