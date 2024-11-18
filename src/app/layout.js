@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Provider from '../components/Provider'
 
 export const metadata = {
   title: "Create Next App",
@@ -32,9 +33,11 @@ const gilroy = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${denton.variable} ${gilroy.variable}`}>
-        {children}
-      </body>
+      <Provider>
+        <body className={`${denton.variable} ${gilroy.variable}`}>
+          {children}
+        </body>
+      </Provider>
     </html>
   );
 }
