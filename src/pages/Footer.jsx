@@ -15,7 +15,7 @@ const Footer = () => {
 
         <button className="btn flex items-center justify-center gap-1 w-[274px] h-[73px] px-[32px] py-[20px] text-white text-[20px] rounded-full mr-4 mt-10">
           <span>Book a demo </span>-{" "}
-          <i className="font-thin font-gilroy">it's Free</i>
+          <i className="font-thin font-gilroy">it&apos;s Free</i>
         </button>
       </div>
 

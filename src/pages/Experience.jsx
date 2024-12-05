@@ -28,11 +28,11 @@ const Experience = () => {
             Flows.
           </span>
           <span>
-            I got really inquisitive and that is when I read the book 'Rich Dad
-            Poor Dad' at the age of 14.
+            I got really inquisitive and that is when I read the book &apos;Rich Dad
+            Poor Dad&apos; at the age of 14.
           </span>
           <span className="">
-            The book helped in gaining invaluable insights coupled with my Dad's
+            The book helped in gaining invaluable insights coupled with my Dad&apos;s
             experiments with Money.
           </span>
           <span>
@@ -41,7 +41,7 @@ const Experience = () => {
           </span>
           <span>
             I started my investing journey with my first stipend from KPMG in
-            the year 2017 and I was lucky enough to use my father's expertise to
+            the year 2017 and I was lucky enough to use my father&apos;s expertise to
             have invested in multi-baggers like Deepak Nitrite.
           </span>
           <span>

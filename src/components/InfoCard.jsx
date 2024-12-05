@@ -16,7 +16,7 @@ const InfoCard = () => {
       <div className="flex flex-col flex-wrap gap-3">
         <h3 className="font-gilroy font-bold">Superfast Designs</h3>
         <span className="font-gilroy font-light">
-          Fast doesn’t mean cheap. Due to our unique experience in Fintech &
+          Fast doesn&apos;t mean cheap. Due to our unique experience in Fintech &
           structured process, we know exactly what you want & deliver it to you
           fast.
         </span>
