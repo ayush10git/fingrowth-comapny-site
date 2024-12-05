@@ -6,6 +6,10 @@
   background-image: linear-gradient(#f4f1ef, #eae8e1);
 }
 
+.about {
+  background-image: linear-gradient(to left, #f4f1ef, #eae8e1);
+}
+
 .btn {
   background-image: linear-gradient(black, #32325d);
 }

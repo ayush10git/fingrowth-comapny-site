@@ -8,13 +8,13 @@ const Experience = () => {
       <h1 className="text-center text-[36px] xl:text-[60px] lg:text-[54px] md:text-[48px] sm:text-[38px] font-denton hor-grad mb-4 ">
         Experience you can trust
       </h1>
-      <div className="flex xs:flex-col sm:flex-col md:flex-col lg:flex-row gap-8">
+      <div className="flex xs:flex-col sm:flex-col md:flex-col lg:flex-row gap-8 about p-5 rounded-3xl">
         <Image
-          src="/images/kanan.png"
+          src="/images/about.jpg"
           width={2000}
           height={2000}
           alt=""
-          className="w-full h-[517px] object-contain xs:my-[-5rem] sm:my-2 md:my-0"
+          className="lg:w-[610px] h-[517px] object-cover sm:my-2 md:my-0 rounded-l-3xl"
         />
         <div className="flex flex-col gap-2 text-[16px] font-gilroy font-light h-full lg:h-[517px] lg:overflow-y-scroll scrollbar-hide">
           <span>
