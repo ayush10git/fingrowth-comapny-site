@@ -19,20 +19,20 @@ const BlogDetails = async ({ params }) => {
 
   return (
     <div className="bg-[#F4F1EF] min-h-screen px-10 py-5 flex flex-col gap-6">
-      <div className="flex items-center justify-between">
-        <h1 className="font-denton text-4xl hor-grad">{blog.title}</h1>
+      <div className="flex items-center justify-between sm:flex-col sm:items-start sm:gap-3 xs:flex-col xs:items-start xs:gap-3 md:flex-row">
+        <h1 className="font-denton md:text-4xl xs:text-[2rem] sm:text-3xl hor-grad">{blog.title}</h1>
         <div className="flex flex-col">
           <span className="font-gilroy">{blog.author}</span>
           <span className="font-gilroy font-light text-sm">{publishDate}</span>
         </div>
       </div>
 
-      <div className="flex gap-8">
+      <div className="flex gap-8 sm:flex-col md:flex-row sm:items-center md:items-start xs:flex-col xs:items-center">
         <Image
           src={blog.image}
           height={2000}
           width={2000}
-          className="w-[370px]"
+          className="w-[370px] h-[500px] object-cover"
           alt="Blog Image"
         />
         <div>
